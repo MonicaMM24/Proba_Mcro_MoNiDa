@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	<!-- fisierul CSS -->
+	<link rel="stylesheet"
+		type="text/css" href="style.css">
+
+	<!-- fisierul JavaScript -->
+	<script src="joc.js"></script>
+</head>
+
+<body>
+	<div id="main">
+	
+		<h1>X și 0</h1>
+		<h2> by MoNiDa </h2>
+		<h3> ~ CodeRun Edition ~ </h3>
+
+		<!-- Instructiuni joc -->
+		<p id="ins">Jocul începe prin apăsarea unei căsuțe.<br>
+			<br>Primul jucător este <b>X.</b>
+			<br>Și al doilea jucător este <b>0.</b>
+		</p>
+
+
+		<br><br>
+		<!-- matricea de 3x3 -->
+		<input type="text" id="b1" onclick=
+			"casuta_1(); myfunc();" readonly>
+
+		<input type="text" id="b2" onclick=
+			"casuta_2(); myfunc();" readonly>
+
+		<input type="text" id="b3" onclick=
+			"casuta_3(); myfunc();" readonly>
+		<br><br>
+
+		<input type="text" id="b4" onclick=
+			"casuta_4(); myfunc();" readonly>
+			
+		<input type="text" id="b5" onclick=
+			"casuta_5(); myfunc();" readonly>
+
+		<input type="text" id="b6" onclick=
+			"casuta_6(); myfunc();" readonly>
+		<br><br>
+
+		<input type="text" id="b7" onclick=
+			"casuta_7(); myfunc();" readonly>
+
+		<input type="text" id="b8" onclick=
+			"casuta_8();myfunc();" readonly>
+
+		<input type="text" id="b9" onclick=
+			"casuta_9();myfunc();" readonly>
+
+		<!-- Sfarsitul matricei -->
+		<br><br><br>
+		
+		<!-- Buton pentru repornirea jocului -->
+		<button id="but" onclick="reset_game()">
+			Joacă din nou
+		</button>
+
+		<br><br>
+		<p id="print"></p>
+
+	</div>
+</body>
+
+</html>
